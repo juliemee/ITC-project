@@ -1,0 +1,24 @@
+.top-container{
+    display: grid;
+    grid-gap: 20px;
+    grid-template-areas: 
+        'showcase showcase top-box-a'
+        'showcase showcase top-box-a';
+}
+.showcase{
+    grid-area: showcase;
+    min-height: 400px;
+    background-size: cover;
+    background-position: center;
+    padding: 3rem;
+}
+.container_requests {
+    height: 100%;
+    width: 1000px;
+    position: fixed;
+    z-index: 1;
+    top: 223px;
+    overflow-x: hidden;
+    margin-left: 145px;
+    background: #fff;
+}
